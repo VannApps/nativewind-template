@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -27,6 +29,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "owner": "vannapps"
+    "owner": "vannapps",
+    "extra": {
+      "eas": {
+        "projectId": "15f45d94-03e9-43e2-b8dd-ab6fe00547c2"
+      }
+    }
   }
 }
